@@ -6,7 +6,7 @@
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-align: center;
     background-color: lightblue;
-    color: black;
+    color: white;
   }
   
   .container {
@@ -19,6 +19,9 @@
       padding: 10px;
       border: 2px solid black;
       border-radius: 10px;
+      background-color: lightblue;
+      margin: 10px;
+      box-shadow: 0 0 30px 5px white;
   }
   
   button {
@@ -27,7 +30,7 @@
       height: 50px;
       width: 50px;
       margin: 5px;
-      color: black;
+      color: white;
       font-size: large;
       overflow: hidden;
     box-shadow: 0 0 0 0 transparent;
@@ -49,8 +52,8 @@
   
   input {
       margin: 5px;
-      background-color: transparent;
-      color: black;
+      background-color: black;
+      color: white;
       width: 80%;
       height: 50px;
       font-size: 30px;
