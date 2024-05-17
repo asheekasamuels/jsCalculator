@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>jsCalculator</title>
+</head>
+<body>
+    <h1 class="calc-heading">Asheeka's Calculator</h1>
+    <div class="container">
+      <div class="calc-container">
+        <div class="input-block">
+          <input type="text" id="calc-screen" readonly value=""/>
+        </div>
+        <div class="calc-numbers">
+          <button id="clear" data-all-clear onclick="calcClear()">C</button>
+          <button id="operation" data-operation onclick="calcOp('%')">%</button>
+          <button id="delete" data-delete onclick="calcDel()">DEL</button>
+          <button id="operation" data-operation onclick="calcOp('/')">/</button>
+          <button id="calc-num9" data-number onclick="calcNum9()">9</button>
+          <button id="calc-num8" data-number onclick="calcNum8()">8</button>
+          <button id="calc-num7" data-number onclick="calcNum7()">7</button>
+          <button id="operation" data-operation onclick="calcOp('*')">x</button>
+          <button id="calc-num6" data-number onclick="calcNum6()">6</button>
+          <button id="calc-num5" data-number onclick="calcNum5()">5</button>
+          <button id="calc-num4" data-number onclick="calcNum4()">4</button>
+          <button id="operation" data-operation onclick="calcOp('-')">-</button>
+          <button id="calc-num3" data-number onclick="calcNum3()">3</button>
+          <button id="calc-num2" data-number onclick="calcNum2()">2</button>
+          <button id="calc-num1" data-number onclick="calcNum1()">1</button>
+          <button id="operation" data-operation onclick="calcOp('+')">+</button>
+          <button id="calc-num0" data-number onclick="calcNum0()">0</button>
+          <button id="calc-num-dec" data-number onclick="calcNumDec()">.</button>
+          <button id="equal" data-equals onclick="calcEval()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script/code.js"></script>
+</body>
+</html>
